@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../img/fone.png);
+    background-color: #3ec3d1;
+    font-family: Tahoma, sans-serif;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff
+}
+
+header {
+    position: relative;
+}
+
+.contacts ul {
+    color: #128aa7;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.contacts {
+    margin: 10px 35px;
+    float: right;
+}
+
+.hed-contacts {
+    font-weight: 700;
+}
+
+.logo {
+    height: 164px;
+    padding: 11px 0 0 30px;
+}
+.logo div {
+    color: #128aa7;
+    font-size: 13px;
+    position: absolute;
+    top: 110px;
+    left: 90px;
+}
+
+.country {
+    clear: both;
+    position: absolute;
+    top: 110px;
+    right: 30px;
+}
+
+.country a {
+    color: #128aa7;
+    width: 60px;
+    text-align: center;
+    font-size: 11px;
+    display: inline-block;
+}
+
+.photo {
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+}
