@@ -61,7 +61,48 @@ header {
     display: inline-block;
 }
 
+.country a:hover {
+	text-decoration: none;
+	color: #0c00ff;
+}
+
 .photo {
+    width: 1000px;
     border-top: 1px solid #128aa7;
     border-bottom: 1px solid #128aa7;
+}
+
+/* ###########  НЕ ТРОГАТЬ ############## */
+.menu {
+    height: 30px;
+    padding: 0 0 0 70px;
+    background-color: #343434;
+    box-shadow: 0px 4px 4px #303030;
+}
+.menu li {
+    width: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 45px 0 10px;
+    /*text-align: center;*/
+    line-height: 30px;
+    font-size: 15px;
+    display: block;
+}
+
+.menu ul {
+    width: 100%;
+    position: absolute;
+    display: none;
+    background-color: #343434;
+    box-shadow: 0px 4px 4px #303030;
+}
+
+.menu li:hover ul {
+    display: block;
 }
