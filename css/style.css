@@ -6,6 +6,8 @@
 body {
     background-image: url(../img/fone.png);
     font-family: Tahoma, sans-serif;
+    background-repeat: repeat-x;
+    background-color: #0c739f;
 }
 
 .wrapper {
